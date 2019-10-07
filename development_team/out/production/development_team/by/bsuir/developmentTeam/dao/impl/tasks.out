@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="by.bsuir.developmentTeam.bean.Task" id="Task0">
+    <void property="description">
+     <string>form</string>
+    </void>
+    <void id="Developer0" property="developer">
+     <void property="age">
+      <int>1</int>
+     </void>
+     <void property="firstName">
+      <string>Temp</string>
+     </void>
+     <void property="id">
+      <int>3</int>
+     </void>
+     <void property="lastName">
+      <string>Temp</string>
+     </void>
+     <void property="position">
+      <string>dev</string>
+     </void>
+     <void property="tasks">
+      <void method="add">
+       <object class="by.bsuir.developmentTeam.bean.Task" id="Task1">
+        <void property="description">
+         <string>dorm</string>
+        </void>
+        <void property="developer">
+         <object idref="Developer0"/>
+        </void>
+        <void property="id">
+         <int>2</int>
+        </void>
+        <void property="name">
+         <string>Delete</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object idref="Task0"/>
+      </void>
+     </void>
+    </void>
+    <void property="id">
+     <int>1</int>
+    </void>
+    <void property="name">
+     <string>Create</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Task1"/>
+  </void>
+ </object>
+</java>

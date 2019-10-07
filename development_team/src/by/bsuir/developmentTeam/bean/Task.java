@@ -1,6 +1,4 @@
-package by.bsuir.developmentTeam.task;
-
-import by.bsuir.developmentTeam.developer.Developer;
+package by.bsuir.developmentTeam.bean;
 
 import java.io.Serializable;
 
@@ -45,3 +43,4 @@ public class Task implements Serializable {
     this.id = id;
   }
 }
+

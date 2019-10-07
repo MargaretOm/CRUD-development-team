@@ -1,5 +1,4 @@
-package by.bsuir.developmentTeam.developer;
-import by.bsuir.developmentTeam.task.Task;
+package by.bsuir.developmentTeam.bean;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -63,3 +62,4 @@ public class Developer implements Serializable {
     this.tasks = tasks;
   }
 }
+
